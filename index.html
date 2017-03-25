@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>RPS-Multiplayer</title>
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.7.3/firebase.js"></script>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script type="text/javascript" src='java.js'></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
+
+	<h1>Rock, Paper, Scissors</h1>
+<br>
+<br>
+<div class="container">
+	<div class="row">
+		<div class="col-md-5">
+			<div class="panel panel-default">
+  				<div class="panel-heading">
+    				<h3 class="panel-title">Player 1</h3>
+  				</div>
+  				<div class="panel-body">
+              <div class="rock-1">
+                 <button type="button" class="btn btn-default">Rock</button>
+              </div>
+              <div class="paper-1">
+                 <button type="button" class="btn btn-default">Paper</button>
+              </div>
+      	      <div class="scissor-1">
+                 <button type="button" class="btn btn-default">Scissors</button>
+              </div>
+            </div>
+			     </div>
+		    </div>
+		<div class="col-md-2">
+			<div class="start"></div>
+		</div>
+		<div class="col-md-5">
+			<div class="panel panel-default">
+  				<div class="panel-heading">
+    				<h3 class="panel-title">Player 2</h3>
+  				</div>
+          <div class="panel-body">
+            <div class="rock-2">
+               <button type="button" class="btn btn-default">Rock</button>
+            </div>
+            <div class="paper-2">
+               <button type="button" class="btn btn-default">Paper</button>
+            </div>
+            <div class="scissor-2">
+               <button type="button" class="btn btn-default">Scissors</button>
+            </div>
+
+          </div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="panel panel-default">
+  				<div class="panel-heading">
+    				<h3 class="panel-title">Chat</h3>
+  				</div>
+  				<div class="panel-body">
+					<div class="input-group">
+  						
+  						<input type="text" class="form-control" placeholder="Send a Message" aria-describedby="basic-addon1">
+  						<button class="btn btn-default">Send</button>
+					</div>
+
+  				</div>
+			</div>
+
+
+</div>	
+
+</body>
+
+</html>
